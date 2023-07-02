@@ -13,8 +13,6 @@ notreObjet.minsize(largeur,hauteur)
 conn = sqlite3.connect("banque.db")
 cur = conn.cursor()
 
-#cur.execute("insert into connexion(nomUtilisateur,password) values('parc','admin')")
-#conn.commit()
 
 
 def Connexion():
